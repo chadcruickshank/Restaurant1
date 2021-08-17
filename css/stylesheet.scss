@@ -1,0 +1,140 @@
+$dark-black: #000;
+$dark-orange: #e95231;
+$white: #ffffff;
+$grey: #5c636a;
+
+$roboto: "Roboto", sans-serif;
+body {
+  font-family: $roboto;
+}
+
+.btn {
+  background-color: $dark-orange;
+}
+
+.banner {
+}
+// Top contact bar
+.contactTopBar {
+  background-color: $dark-orange;
+  font-weight: 500;
+  width: 90%;
+  text-align: center;
+  border-radius: 0 0 60px 60px;
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  padding-top: 6px;
+  height: 40px;
+}
+
+.contactTopBar p {
+  display: inline;
+}
+
+// Nav
+
+nav {
+  padding: 0 2%;
+}
+.nav-item {
+  padding: 0 3rem;
+  font-size: 1.1rem;
+}
+
+// Banner
+
+.bannerText {
+  margin-top: 5%;
+  line-height: 2.5rem;
+  padding: 0 7vw;
+
+  h1 {
+    font-weight: 500;
+    font-size: 4rem;
+  }
+}
+
+.bannercta {
+  margin-top: 2%;
+  padding: 10px 50px;
+  font-size: 1.5rem;
+
+  & a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+// Banner Carousel
+
+.banner-carousel {
+  text-align: center;
+  width: 500px;
+  margin-top: 10%;
+  h2 {
+    margin: 0% 0% 3%;
+    font-weight: 500;
+    font-size: 1.8rem;
+    z-index: 2;
+  }
+}
+
+.food-carousel {
+  width: 100%;
+  background-color: $dark-black;
+  padding-top: 40px;
+  border-top-right-radius: 18%;
+  border-top-left-radius: 18%;
+}
+
+.carousel-item img {
+  margin: auto;
+  width: 280px;
+  height: 280px;
+}
+
+.orangeCurve {
+  position: absolute;
+  background: url("../imgs/banner-background.svg") no-repeat;
+  background-size: cover;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  width: 180vw;
+  z-index: -1;
+}
+
+//Top Picks
+
+.topPicks {
+  background-color: $dark-black;
+  .container {
+    margin: 40px auto;
+    padding-bottom: 100px;
+  }
+}
+
+.headings {
+  padding: 50px;
+  text-align: center;
+}
+
+// Mini Gallery
+
+.galleryContainer {
+  margin: -0 5%; //100-(47+47)
+
+  margin-top: -20%;
+  padding: 0;
+  display: grid;
+  box-shadow: 0px 0px 14px 5px rgba(0, 0, 0, 0.36);
+  -webkit-box-shadow: 0px 0px 14px 5px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 0px 0px 14px 5px rgba(0, 0, 0, 0.36);
+  grid-template-columns: 50% 50%;
+
+  img {
+    width: 100%;
+    border: 2px solid white;
+  }
+}

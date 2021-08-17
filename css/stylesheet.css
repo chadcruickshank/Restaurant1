@@ -1,0 +1,129 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.btn {
+  background-color: #e95231;
+}
+
+.contactTopBar {
+  background-color: #e95231;
+  font-weight: 500;
+  width: 90%;
+  text-align: center;
+  border-radius: 0 0 60px 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 6px;
+  height: 40px;
+}
+
+.contactTopBar p {
+  display: inline;
+}
+
+nav {
+  padding: 0 2%;
+}
+
+.nav-item {
+  padding: 0 3rem;
+  font-size: 1.1rem;
+}
+
+.bannerText {
+  margin-top: 5%;
+  line-height: 2.5rem;
+  padding: 0 7vw;
+}
+
+.bannerText h1 {
+  font-weight: 500;
+  font-size: 4rem;
+}
+
+.bannercta {
+  margin-top: 2%;
+  padding: 10px 50px;
+  font-size: 1.5rem;
+}
+
+.bannercta a {
+  color: white;
+  text-decoration: none;
+}
+
+.banner-carousel {
+  text-align: center;
+  width: 500px;
+  margin-top: 10%;
+}
+
+.banner-carousel h2 {
+  margin: 0% 0% 3%;
+  font-weight: 500;
+  font-size: 1.8rem;
+  z-index: 2;
+}
+
+.food-carousel {
+  width: 100%;
+  background-color: #000;
+  padding-top: 40px;
+  border-top-right-radius: 18%;
+  border-top-left-radius: 18%;
+}
+
+.carousel-item img {
+  margin: auto;
+  width: 280px;
+  height: 280px;
+}
+
+.orangeCurve {
+  position: absolute;
+  background: url("../imgs/banner-background.svg") no-repeat;
+  background-size: cover;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  width: 180vw;
+  z-index: -1;
+}
+
+.topPicks {
+  background-color: #000;
+}
+
+.topPicks .container {
+  margin: 40px auto;
+  padding-bottom: 100px;
+}
+
+.headings {
+  padding: 50px;
+  text-align: center;
+}
+
+.galleryContainer {
+  margin: -0 5%;
+  margin-top: -20%;
+  padding: 0;
+  display: -ms-grid;
+  display: grid;
+  box-shadow: 0px 0px 14px 5px rgba(0, 0, 0, 0.36);
+  -webkit-box-shadow: 0px 0px 14px 5px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 0px 0px 14px 5px rgba(0, 0, 0, 0.36);
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+}
+
+.galleryContainer img {
+  width: 100%;
+  border: 2px solid white;
+}
+/*# sourceMappingURL=stylesheet.css.map */
