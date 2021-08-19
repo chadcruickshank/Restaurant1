@@ -29,6 +29,14 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300&display=swap"
       rel="stylesheet"
     />
+
+    <!-- fontawsome icons -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
   </head>
 
   <body>
@@ -38,7 +46,6 @@
     </div>
 
     <!-- ---------------------------------NAV--------------------------------->
-
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
         <a href="" class="navbar-brand blackNav">
@@ -99,21 +106,21 @@
               data-bs-ride="carousel"
             >
               <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="2000">
+                <div class="carousel-item active" data-bs-interval="5000">
                   <img
                     src="imgs/food carousel-1.png"
                     class="d-block"
                     alt="..."
                   />
                 </div>
-                <div class="carousel-item" data-bs-interval="2000">
+                <div class="carousel-item" data-bs-interval="5000">
                   <img
                     src="imgs/food carousel-2.png"
                     class="d-block"
                     alt="..."
                   />
                 </div>
-                <div class="carousel-item" data-bs-interval="2000">
+                <div class="carousel-item" data-bs-interval="5000">
                   <img
                     src="imgs/food carousel-3.png"
                     class="d-block"
@@ -152,7 +159,6 @@
     </section>
 
     <!-- ---------------------------------TOP PICKS--------------------------------->
-
     <section class="topPicks">
       <h1 class="display-4 text-light headings">Top Picks</h1>
 
@@ -257,6 +263,7 @@
       <!-- ^bootstrap container -->
     </section>
 
+    <!-- ---------------------------------MINI GALLERY--------------------------------->
     <section id="miniGallery">
       <div class="galleryContainer">
         <img class="miniGalItems" src="imgs/gallerypic-1.jpg" alt="" />
@@ -266,19 +273,52 @@
       </div>
     </section>
 
+    <!-- ---------------------------------MENU--------------------------------->
     <section id="menu">
       <h1 class="display-6 headings">Menu</h1>
 
       <div class="menuCategories">
         <ul class="pagination justify-content-center">
-          <li class="page-item active" aria-current="page">
-            <span class="page-link appetizers">Appetizers</span>
+          <li class="page-item" aria-current="page">
+            <span class="menuButtons active" id="appetizer">Appetizers</span>
           </li>
           <li class="page-item">
-            <span class="page-link mainCourse">Main Course</span>
+            <span class="menuButtons" id="mainCourse">Main Course</span>
           </li>
-          <span class="page-link drinks">Drinks</span>
+          <li class="page-item">
+            <span class="menuButtons" id="drinks">Drinks</span>
+          </li>
         </ul>
+      </div>
+
+      <div class="menu-items"></div>
+      <button class="btn closeMenu">Close</button>
+    </section>
+
+    <!-- ---------------------------------CONTACT US--------------------------------->
+    <section id="contactPage">
+      <h1 class="display-6 headings">Get in Contact!</h1>
+      <div class="contactContainter">
+        <span class="contacts"
+          ><i class="fas fa-phone"></i><a href="tel:4902988">123-4567</a></span
+        >
+        <span class="contacts"
+          ><i class="fas fa-envelope"></i
+          ><a href="mailto:someone@yoursite.com"> fakeemail@gmail.com</a>
+        </span>
+        <span class="contacts addressContact"
+          ><i class="fas fa-map-marker-alt"></i>#24 Fake Address Road, Miami
+          Floria</span
+        >
+      </div>
+      <div class="embeddedMap">
+        <iframe
+          class="googleMap"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3920.9511040020134!2d-61.511038685437825!3d10.66090339239996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c36078ebfcab1ad%3A0x526fd068c85851c5!2sKFC!5e0!3m2!1sen!2stt!4v1629398445146!5m2!1sen!2stt"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
       </div>
     </section>
 

@@ -4,6 +4,7 @@ body {
 
 .btn {
   background-color: #e95231;
+  color: white;
 }
 
 .contactTopBar {
@@ -38,7 +39,7 @@ nav {
 .bannerText {
   margin-top: 5%;
   line-height: 2.5rem;
-  padding: 0 7vw;
+  padding-left: 7vw;
 }
 
 .bannerText h1 {
@@ -57,9 +58,14 @@ nav {
   text-decoration: none;
 }
 
+.banner .row {
+  margin-right: 0px;
+}
+
 .banner-carousel {
   text-align: center;
   width: 500px;
+  padding-right: 0;
   margin-top: 10%;
 }
 
@@ -72,6 +78,7 @@ nav {
 
 .food-carousel {
   width: 100%;
+  padding: 10px;
   background-color: #000;
   padding-top: 40px;
   border-top-right-radius: 18%;
@@ -97,6 +104,7 @@ nav {
 
 .topPicks {
   background-color: #000;
+  padding: 0px 20px;
 }
 
 .topPicks .container {
@@ -110,7 +118,7 @@ nav {
 }
 
 .galleryContainer {
-  margin: -0 5%;
+  margin: 0 5%;
   margin-top: -20%;
   padding: 0;
   display: -ms-grid;
@@ -125,5 +133,109 @@ nav {
 .galleryContainer img {
   width: 100%;
   border: 2px solid white;
+}
+
+#menu {
+  padding-bottom: 200px;
+  width: 100vw;
+}
+
+.menuButtons {
+  border: 1px solid #5c636a;
+  padding: 10px 20px;
+  border-radius: 50px;
+  margin: 0 5px;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.active {
+  background-color: black;
+  color: #ffffff;
+}
+
+.page-link :hover {
+  display: none;
+}
+
+.menu-items {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  padding: 0 10%;
+}
+
+.menu-items .menuStyling {
+  padding: 5% 5%;
+}
+
+.menu-items .menuStyling p {
+  line-height: 1;
+  word-wrap: break-word;
+  word-break: break-all;
+  max-width: 100%;
+}
+
+.menu-items .menuStyling .foodPrice {
+  line-height: 0;
+}
+
+.menu-items .foodDescription {
+  font-style: italic;
+  font-size: 0.8rem;
+}
+
+.closeMenu {
+  padding: 5px 20px;
+  margin: 5% 40%;
+}
+
+.contactContainter {
+  background-color: #000;
+  border-radius: 30px;
+  margin: 0% 5%;
+  padding: 8% 10%;
+}
+
+.contactContainter .contacts {
+  display: block;
+  line-height: 1.5rem;
+  margin-bottom: 15%;
+  word-wrap: break-word;
+  text-align: center;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.contactContainter .contacts a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.contactContainter .contacts .fas {
+  color: white;
+  padding-right: 10px;
+}
+
+.contactContainter .contacts a:hover {
+  color: #5c636a;
+}
+
+.contactContainter .addressContact {
+  margin-bottom: 0%;
+}
+
+.embeddedMap {
+  margin: 15% 6%;
+  border: 4px dashed #000;
+}
+
+.googleMap {
+  width: 100%;
+  height: 40vh;
 }
 /*# sourceMappingURL=stylesheet.css.map */
