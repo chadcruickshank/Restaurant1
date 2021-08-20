@@ -3,6 +3,10 @@ $dark-orange: #e95231;
 $white: #ffffff;
 $grey: #5c636a;
 
+html {
+  scroll-behavior: smooth;
+}
+
 $roboto: "Roboto", sans-serif;
 body {
   font-family: $roboto;
@@ -11,6 +15,11 @@ body {
 .btn {
   background-color: $dark-orange;
   color: white;
+}
+
+.headings {
+  padding: 50px;
+  text-align: center;
 }
 
 // Top contact bar
@@ -34,8 +43,10 @@ body {
 // Nav
 
 nav {
-  padding: 0 2%;
+  margin-top: 3%;
+  padding: 5% 2%;
 }
+
 .nav-item {
   padding: 0 3rem;
   font-size: 1.1rem;
@@ -50,12 +61,12 @@ nav {
 
   h1 {
     font-weight: 500;
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 }
 
 .bannercta {
-  margin-top: 2%;
+  margin-top: 5%;
   padding: 10px 50px;
   font-size: 1.5rem;
 
@@ -122,11 +133,6 @@ nav {
   }
 }
 
-.headings {
-  padding: 50px;
-  text-align: center;
-}
-
 // Mini Gallery
 
 .galleryContainer {
@@ -149,7 +155,6 @@ nav {
 // Menu
 
 #menu {
-  padding-bottom: 200px;
   width: 100vw;
 }
 
@@ -246,5 +251,54 @@ nav {
 
 .googleMap {
   width: 100%;
-  height: 40vh;
+  height: 35vh;
+}
+
+// Footer
+#footer {
+  background-color: $dark-black;
+  color: $white;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+//----------------------GALLERY-----------------
+
+//Gallery
+
+// .galleryContainer {
+//   grid: grid;
+// }
+
+.testCarousel {
+  margin: 0 auto;
+}
+
+.swiper-container {
+  width: 80%;
+  height: 40vw; //so that it will resize as width gets smaller, therefore pereventing stretching
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  height: 40%;
+
+  /* Center slide text vertically */
+
+  display: flex;
+  justify-content: center;
+
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+.swiper-pagination-bullet {
+  // margin: 2px;
+}
+.swiper-pagination {
+  // background-color: red;
+  // margin: 35% auto;
 }

@@ -4,23 +4,46 @@ $(document).ready(function () {
   $(".owl-carousel").owlCarousel();
 });
 
-$(".owl-carousel").owlCarousel({
-  loop: true,
-  margin: 10,
-  nav: true,
-  responsive: {
+// $(".owl-carousel").owlCarousel({
+//   loop: true,
+//   margin: 10,
+//   nav: false,
+//   responsive: {
+//     0: {
+//       items: 1,
+//     },
+//     500: {
+//       items: 2,
+//     },
+//     800: {
+//       items: 3,
+//     },
+
+//     1300: {
+//       items: 4,
+//     },
+//   },
+// });
+
+//test carousel
+var swiper = new Swiper(".mySwiper", {
+  slidesPerView: 3,
+  slidesPerColumn: 2,
+  spaceBetween: 20,
+  // autoHeight: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  breakpoints: {
     0: {
-      items: 1,
-    },
-    500: {
-      items: 2,
-    },
-    800: {
-      items: 3,
+      slidesPerView: 1,
+      slidesPerColumn: 2,
     },
 
-    1300: {
-      items: 4,
+    700: {
+      slidesPerView: 3,
+      slidesPerColumn: 2,
     },
   },
 });
