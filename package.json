@@ -18,5 +18,8 @@
   "homepage": "https://github.com/chadcruickshank/Restaurant1#readme",
   "dependencies": {
     "bootstrap": "^5.1.0"
+  },
+  "devDependencies": {
+    "sass": "^1.38.0"
   }
 }

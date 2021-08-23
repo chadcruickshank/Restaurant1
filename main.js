@@ -1,53 +1,3 @@
-// Top picks carousel
-
-$(document).ready(function () {
-  $(".owl-carousel").owlCarousel();
-});
-
-// $(".owl-carousel").owlCarousel({
-//   loop: true,
-//   margin: 10,
-//   nav: false,
-//   responsive: {
-//     0: {
-//       items: 1,
-//     },
-//     500: {
-//       items: 2,
-//     },
-//     800: {
-//       items: 3,
-//     },
-
-//     1300: {
-//       items: 4,
-//     },
-//   },
-// });
-
-//test carousel
-var swiper = new Swiper(".mySwiper", {
-  slidesPerView: 3,
-  slidesPerColumn: 2,
-  spaceBetween: 20,
-  // autoHeight: true,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  breakpoints: {
-    0: {
-      slidesPerView: 1,
-      slidesPerColumn: 2,
-    },
-
-    700: {
-      slidesPerView: 3,
-      slidesPerColumn: 2,
-    },
-  },
-});
-
 // Menu
 
 var appetizer = [
@@ -175,4 +125,26 @@ $(".closeMenu").click(function () {
   $(".menuStyling").remove();
   $(".closeMenu").css("display", "none");
   $(".pagination li span").removeClass("active");
+});
+
+var swiper2 = new Swiper(".topPicksSlider", {
+  slidesPerView: 3,
+
+  spaceBetween: 20,
+
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  breakpoints: {
+    0: {
+      slidesPerView: 2,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    1199: {
+      slidesPerView: 3,
+    },
+  },
 });
