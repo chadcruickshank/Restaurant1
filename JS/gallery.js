@@ -1,13 +1,11 @@
 // Top picks carousel
 
-$(document).ready(function () {
-  $(".owl-carousel").owlCarousel();
-});
-
 //meal corousel
 var swiper = new Swiper(".sigMealCarousel", {
   slidesPerView: 3,
-  slidesPerColumn: 2,
+  grid: {
+    rows: 2,
+  },
   spaceBetween: 20,
   // autoHeight: true,
   pagination: {
@@ -17,18 +15,24 @@ var swiper = new Swiper(".sigMealCarousel", {
   breakpoints: {
     0: {
       slidesPerView: 1,
-      slidesPerColumn: 2,
+      grid: {
+        rows: 2,
+      },
     },
 
     300: {
       slidesPerView: 2,
-      slidesPerColumn: 2,
-      spaceBetween: 30,
+      grid: {
+        rows: 2,
+      },
+      // spaceBetween: 30,
     },
 
     700: {
       slidesPerView: 3,
-      slidesPerColumn: 2,
+      grid: {
+        rows: 2,
+      },
     },
   },
 });

@@ -18,7 +18,7 @@ body {
 }
 
 .headings {
-  padding: 50px;
+  padding: 10% 0 5% 0;
   text-align: center;
 }
 
@@ -43,6 +43,7 @@ body {
 
 .contactTopBar p {
   display: inline;
+  color: $white;
 }
 
 // Nav
@@ -50,28 +51,30 @@ body {
 nav {
   margin-top: 3%;
   padding: 5% 2%;
-  // background-color: #e95231;
 }
 
-.navbar-nav {
-  // background-color: red;
+.myNavBrand {
+  font-size: 1.5rem;
+  color: $dark-black;
+  text-decoration: none;
 }
 
 .nav-item {
-  margin: 0 auto 15px;
-  padding: 1% 3rem;
-  font-size: 1.1rem;
+  margin: 0 auto 12px;
+  width: 60%;
+  font-size: 1.2rem;
 
-  width: 65%;
-  background-color: $dark-orange;
-  border-radius: 15px;
+  a {
+    text-decoration: none;
+  }
 }
 .myNavLink {
-  width: 200px;
-  text-decoration: none;
-  margin-bottom: 50px;
+  width: 100%;
+  background-color: $dark-orange;
   color: $white;
+  border-radius: 15px;
 }
+
 // Banner
 
 .bannerText {
@@ -86,7 +89,7 @@ nav {
 }
 
 .bannercta {
-  margin-top: 5%;
+  margin: 5% 0 10% 0;
   padding: 10px 50px;
   font-size: 1.5rem;
 
@@ -103,15 +106,14 @@ nav {
 }
 .banner-carousel {
   text-align: center;
-  // width: 500px;
   padding-right: 0;
 
-  margin-top: 10%;
   h2 {
     margin: 0% 0% 3%;
     font-weight: 500;
     font-size: 1.8rem;
     z-index: 2;
+    color: $white;
   }
 }
 
@@ -119,9 +121,9 @@ nav {
   width: 100%;
   padding: 10px;
   background-color: $dark-black;
-  padding-top: 40px;
-  border-top-right-radius: 18%;
-  border-top-left-radius: 18%;
+  // padding-top: 40px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
 }
 
 .carousel-item img {
@@ -129,17 +131,6 @@ nav {
   width: 280px;
   height: 280px;
 }
-
-// .orangeCurve {
-//   position: absolute;
-//   // background: url("../imgs/banner-background.svg") no-repeat;
-//   background-size: cover;
-//   right: 0;
-//   top: 0;
-//   height: 100vh;
-//   width: 180vw;
-//   z-index: -1;
-// }
 
 //Top Picks
 
@@ -165,7 +156,7 @@ nav {
 }
 
 .topPickPagination {
-  margin-top: -20px;
+  // margin-top: -20px;
   $swiper-pagination-color: red;
 
   .swiper-pagination-bullet {
@@ -205,6 +196,9 @@ nav {
 
 .menuCategories .pagination {
   margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 3;
 }
 
 .menuButtons {
@@ -231,7 +225,6 @@ nav {
   justify-items: right;
   grid-template-columns: 50% 50%;
   text-align: center;
-  // padding: 0 5%;
 
   .menuStyling {
     padding: 5% 5%;
@@ -242,6 +235,12 @@ nav {
       word-break: break-all;
       max-width: 100%;
     }
+
+    .foodName {
+      font-weight: 500;
+      font-size: 1.1rem;
+    }
+
     .foodPrice {
       line-height: 0;
     }
@@ -319,65 +318,65 @@ nav {
 
 //Gallery Banner
 
-#galleryBanner {
-  width: 100%;
-  height: 20vh;
-  margin-bottom: 10%;
-  margin-top: -30px;
-  background: $dark-orange;
-}
+// #galleryBanner {
+//   width: 100%;
+//   height: 20vh;
+//   margin-bottom: 10%;
+//   margin-top: -30px;
+//   background: $dark-orange;
+// }
 
 //Slider Specifications for all slides/carousels on page
 
-.swiper-container {
-  display: flex;
-  justify-content: center;
-}
+// .swiper-container {
+//   display: flex;
+//   justify-content: center;
+// }
 
-.swiper-slide {
-  text-align: center;
+// .swiper-slide {
+//   text-align: center;
 
-  img {
-    height: 100%;
-    width: 100%;
-    // max-width: 230px;
-    // max-height: 205px;
-    // max-width: auto;
-    // minheight: auto;
-  }
-}
+//   img {
+//     height: 100%;
+//     width: 100%;
+//     // max-width: 230px;
+//     // max-height: 205px;
+//     // max-width: auto;
+//     // minheight: auto;
+//   }
+// }
 
-//Styles for specific slides
+// //Styles for specific slides
 
-#mealGallery {
-  // margin: 0 auto;
-  margin-bottom: 50px;
+// #mealGallery {
+//   // margin: 0 auto;
+//   margin-bottom: 50px;
 
-  .swiper-container {
-    height: 40vw; //so that it will resize as width gets smaller, therefore pereventing stretching
-    width: 80%;
-  }
+//   .swiper-container {
+//     height: 40vw; //so that it will resize as width gets smaller, therefore pereventing stretching
+//     width: 80%;
+//   }
 
-  .swiper-slide {
-    height: 40%;
-  }
-}
+//   .swiper-slide {
+//     height: 40%;
+//   }
+// }
 
-.secondaryGalleries {
-  margin-bottom: 10px;
+// .secondaryGalleries {
+//   margin-bottom: 10px;
 
-  .swiper-container {
-    height: 25vw;
-    padding-bottom: 40px;
-    width: 80%;
-    // background-color: green;
-  }
+//   .swiper-container {
+//     height: 25vw;
+//     padding-bottom: 40px;
+//     width: 80%;
+//     // background-color: green;
+//   }
 
-  // .swiper-slide {
-  //   // height: 10%;
-  // }
-}
+//   // .swiper-slide {
+//   //   // height: 10%;
+//   // }
+// }
 
-.lastGallery {
-  padding-bottom: 15%;
-}
+// .lastGallery {
+//   padding-bottom: 15%;
+// }

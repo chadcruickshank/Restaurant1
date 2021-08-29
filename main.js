@@ -143,7 +143,7 @@ var swiper2 = new Swiper(".topPicksSlider", {
     768: {
       slidesPerView: 2,
     },
-    1199: {
+    992: {
       slidesPerView: 3,
     },
   },

@@ -14,7 +14,7 @@
       crossorigin="anonymous"
     />
 
-    <!-- Swiper  -->
+    <!-- Swiper -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
     <link
       rel="stylesheet"
@@ -22,8 +22,8 @@
     />
 
     <!-- My Styles  -->
-    <link rel="stylesheet" href="css/mediaquery.css" />
     <link rel="stylesheet" href="css/stylesheet.css" />
+    <link rel="stylesheet" href="css/mediaquery.css" />
 
     <!-- fonts  -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -49,9 +49,9 @@
     </div>
 
     <!-- ---------------------------------NAV--------------------------------->
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-xl navbar-light">
       <div class="container-fluid">
-        <a href="" class="navbar-brand">
+        <a href="" class="myNavBrand">
           <img src="imgs/logo.png" alt="logo" width="70" height="70" />
           Restaurant
         </a>
@@ -70,16 +70,16 @@
         <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
           <ul class="navbar-nav float-none text-center">
             <li class="nav-item">
-              <a class="myNavLink" href="#menu">Menu</a>
+              <a href="#menu"><div class="myNavLink">Menu</div></a>
             </li>
             <li class="nav-item">
-              <a class="myNavLink" href="gallery.html">Gallery</a>
+              <a href="gallery.html"><div class="myNavLink">Gallery</div></a>
             </li>
             <li class="nav-item">
-              <a class="myNavLink" href="#">About Us</a>
+              <a href="#"><div class="myNavLink">About Us</div></a>
             </li>
             <li class="nav-item">
-              <a class="myNavLink" href="#contactPage">Contact Us</a>
+              <a href="#contactPage"><div class="myNavLink">Contact Us</div></a>
             </li>
           </ul>
         </div>
@@ -89,7 +89,7 @@
     <!-- ---------------------------------BANNER--------------------------------->
     <section class="banner">
       <div class="row justify-content-between">
-        <div class="bannerText col-lg-6">
+        <div class="bannerText col-lg-9 col-xl-7">
           <h1 class="display-1">JOY IN EVERY BITE</h1>
           <p class="lead">Food made fresh with your satisfaction in mind 🧡</p>
           <button type="button" class="btn bannercta">
@@ -98,9 +98,9 @@
         </div>
 
         <!-- Carousel  -->
-        <div class="banner-carousel col-lg-4">
+        <div class="banner-carousel col-xl-4">
           <div class="food-carousel">
-            <h2 class="text-light">Something for Everyone</h2>
+            <h2>Something for Everyone</h2>
             <div
               id="carouselExampleControls"
               class="carousel slide"
@@ -164,7 +164,7 @@
       <h1 class="display-4 text-light headings">Top Picks</h1>
 
       <div class="container">
-        <div class="swiper-container topPicksSlider">
+        <div class="swiper topPicksSlider">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="item card">
@@ -251,8 +251,8 @@
           ><a href="mailto:someone@yoursite.com"> fakeemail@gmail.com</a>
         </span>
         <span class="contacts addressContact"
-          ><i class="fas fa-map-marker-alt"></i>#24 Fake Address Road, Miami
-          Floria</span
+          ><i class="fas fa-map-marker-alt"></i
+          ><a>#24 Fake Address Road, Miami Floria</a></span
         >
       </div>
       <div class="embeddedMap">

@@ -1,0 +1,313 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.btn {
+  background-color: #e95231;
+  color: white;
+}
+
+.headings {
+  padding: 10% 0 5% 0;
+  text-align: center;
+}
+
+.subheading {
+  text-align: center;
+  padding: 10px;
+}
+
+.contactTopBar {
+  background-color: #e95231;
+  font-weight: 500;
+  width: 90%;
+  text-align: center;
+  border-radius: 0 0 60px 60px;
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  padding-top: 6px;
+  height: 40px;
+}
+
+.contactTopBar p {
+  display: inline;
+  color: #ffffff;
+}
+
+nav {
+  margin-top: 3%;
+  padding: 5% 2%;
+}
+
+.myNavBrand {
+  font-size: 1.5rem;
+  color: #000;
+  text-decoration: none;
+}
+
+.nav-item {
+  margin: 0 auto 12px;
+  width: 60%;
+  font-size: 1.2rem;
+}
+.nav-item a {
+  text-decoration: none;
+}
+
+.myNavLink {
+  width: 100%;
+  background-color: #e95231;
+  color: #ffffff;
+  border-radius: 15px;
+}
+
+.bannerText {
+  margin-top: 5%;
+  line-height: 2.5rem;
+  padding-left: 7vw;
+}
+.bannerText h1 {
+  font-weight: 500;
+  font-size: 3.5rem;
+}
+
+.bannercta {
+  margin: 5% 0 10% 0;
+  padding: 10px 50px;
+  font-size: 1.5rem;
+}
+.bannercta a {
+  color: white;
+  text-decoration: none;
+}
+
+.banner .row {
+  margin-right: 0px;
+}
+
+.banner-carousel {
+  text-align: center;
+  padding-right: 0;
+}
+.banner-carousel h2 {
+  margin: 0% 0% 3%;
+  font-weight: 500;
+  font-size: 1.8rem;
+  z-index: 2;
+  color: #ffffff;
+}
+
+.food-carousel {
+  width: 100%;
+  padding: 10px;
+  background-color: #000;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+}
+
+.carousel-item img {
+  margin: auto;
+  width: 280px;
+  height: 280px;
+}
+
+.topPicks {
+  background-color: #000;
+  padding: 0px 20px;
+}
+.topPicks .container {
+  margin: 40px auto;
+  padding-bottom: 100px;
+}
+
+.topPicksSlider {
+  padding-bottom: 50px;
+  width: 100%;
+}
+
+.topPickName {
+  color: #000;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.topPickPagination .swiper-pagination-bullet {
+  background-color: #5c636a;
+  opacity: 1;
+}
+.topPickPagination .swiper-pagination-bullet-active {
+  background: #ffffff;
+  opacity: 1;
+}
+
+.galleryContainer {
+  margin: -80px 5% 40px;
+  padding: 0;
+  display: grid;
+  box-shadow: 0px 0px 14px 5px rgba(0, 0, 0, 0.36);
+  -webkit-box-shadow: 0px 0px 14px 5px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 0px 0px 14px 5px rgba(0, 0, 0, 0.36);
+  grid-template-columns: 50% 50%;
+}
+.galleryContainer img {
+  width: 100%;
+  border: 2px solid white;
+}
+
+#menu {
+  width: 100vw;
+}
+
+.menuCategories .pagination {
+  margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 3;
+}
+
+.menuButtons {
+  border: 1px solid #5c636a;
+  padding: 10px 20px;
+  border-radius: 50px;
+  margin: 0 5px;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.active {
+  background-color: black;
+  color: #ffffff;
+}
+
+.page-link :hover {
+  display: none;
+}
+
+.menu-items {
+  margin: 0 5%;
+  display: grid;
+  justify-items: right;
+  grid-template-columns: 50% 50%;
+  text-align: center;
+}
+.menu-items .menuStyling {
+  padding: 5% 5%;
+  width: 100%;
+}
+.menu-items .menuStyling p {
+  line-height: 1;
+  word-wrap: break-word;
+  word-break: break-all;
+  max-width: 100%;
+}
+.menu-items .menuStyling .foodName {
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.menu-items .menuStyling .foodPrice {
+  line-height: 0;
+}
+.menu-items .foodDescription {
+  font-style: italic;
+  font-size: 0.8rem;
+}
+
+.closeMenu {
+  display: flex;
+  padding: 5px 20px;
+  margin: 5% auto;
+}
+
+.contactContainter {
+  background-color: #000;
+  border-radius: 30px;
+  margin: 0% 5%;
+  padding: 8% 10%;
+}
+.contactContainter .contacts {
+  display: block;
+  line-height: 1.5rem;
+  margin-bottom: 15%;
+  word-wrap: break-word;
+  text-align: center;
+  font-size: 1.2rem;
+  color: white;
+}
+.contactContainter .contacts a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.contactContainter .contacts .fas {
+  color: white;
+  padding-right: 10px;
+}
+.contactContainter .contacts a:hover {
+  color: #5c636a;
+}
+.contactContainter .addressContact {
+  margin-bottom: 0%;
+}
+
+.embeddedMap {
+  margin: 15% 6%;
+  border: 4px dashed #000;
+}
+
+.googleMap {
+  width: 100%;
+  height: 35vh;
+}
+
+#footer {
+  background-color: #000;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+#galleryBanner {
+  width: 100%;
+  height: 20vh;
+  margin-bottom: 10%;
+  margin-top: 30px;
+  background: #e95231;
+}
+
+.swiper {
+  display: flex;
+  justify-content: center;
+}
+
+.swiper-slide {
+  text-align: center;
+}
+.swiper-slide img {
+  height: 100%;
+  width: 100%;
+}
+
+#signatureMeals {
+  margin-bottom: 50px;
+}
+#signatureMeals .swiper {
+  height: 40vw;
+  width: 80%;
+}
+#signatureMeals .swiper-slide {
+  height: 40%;
+}
+
+.secondaryGalleries {
+  margin-bottom: 10px;
+}
+.secondaryGalleries .swiper {
+  height: 20vw;
+  padding-bottom: 40px;
+  width: 80%;
+}/*# sourceMappingURL=gallery.css.map */
