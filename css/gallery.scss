@@ -1,11 +1,15 @@
 @import "stylesheet.scss";
 
 #galleryBanner {
-  width: 100%;
-  height: 20vh;
-  margin-bottom: 10%;
-  margin-top: 30px;
-  background: $dark-orange;
+  display: none;
+  margin: 70px 0;
+
+  img {
+    width: 98.9vw;
+    height: 42vw;
+    margin: 0;
+    padding: 0;
+  }
 }
 
 .swiper {
@@ -27,7 +31,7 @@
 
 #signatureMeals {
   margin-bottom: 50px;
-
+  margin-top: 80px;
   .swiper {
     height: 40vw; //so that it will resize as width gets smaller, therefore pereventing stretching
     width: 80%;
@@ -46,12 +50,7 @@
     padding-bottom: 40px;
     width: 80%;
   }
-
-  // .swiper-slide {
-  //   // height: 10%;
-  // }
 }
-
 // .lastGallery {
-//   padding-bottom: 15%;
+//   margin-bottom: 20vh;
 // }

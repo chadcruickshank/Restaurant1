@@ -55,17 +55,17 @@ var drinks = [
   {
     name: "Margarita",
     price: "45",
-    description: "description",
+    description: "",
   },
   {
     name: "Bloody Marry",
     price: "50",
-    description: "description",
+    description: "",
   },
   {
     name: "Gin and Tonic",
     price: "20",
-    description: "description",
+    description: "",
   },
 ];
 
@@ -148,3 +148,9 @@ var swiper2 = new Swiper(".topPicksSlider", {
     },
   },
 });
+
+// let hasDriversLicense = false;
+// const passTest = true;
+
+// if (passTest) hasDriverLicense = true;
+// if (hasDriversLicense) console.log("I can drive");

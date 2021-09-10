@@ -147,9 +147,9 @@
     p {
       font-size: 1.1rem;
     }
-    .foodName {
-      // font-size: 3rem;
-    }
+    // .foodName {
+    //   // font-size: 3rem;
+    // }
   }
 
   .contactContainter {
@@ -171,6 +171,11 @@
 }
 // ---------------GALLERY
 
+@media only screen and (max-width: 800px) {
+  #galleryBanner {
+    display: block;
+  }
+}
 @media only screen and (max-width: 699px) {
   .swiper {
     padding-bottom: 20px;
@@ -188,12 +193,28 @@
 
   .topPicksSlider {
     padding-bottom: 40px;
+    .swiper-wrapper .swiper-slide .card img {
+      height: 150px;
+    }
+  }
+  .topPickName {
+    font-size: 1rem;
+    // padding: 10px 0;
   }
 }
 @media only screen and (max-width: 499px) {
   .secondaryGalleries {
     .swiper {
       height: 40vw;
+    }
+  }
+
+  .topPicksSlider {
+    .swiper-wrapper .swiper-slide .card img {
+      height: 110px;
+    }
+    .swiper-wrapper .swiper-slide .card .card-body {
+      height: 100px;
     }
   }
 }
