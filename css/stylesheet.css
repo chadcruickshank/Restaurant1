@@ -211,7 +211,6 @@ nav {
 .menu-items .menuStyling p {
   line-height: 1;
   word-wrap: break-word;
-  word-break: break-all;
   max-width: 100%;
 }
 .menu-items .menuStyling .foodName {
@@ -283,4 +282,8 @@ nav {
 
 .aboutUsText {
   margin: 5vw 10vw;
+}
+.aboutUsText mark {
+  background-color: #e95231;
+  color: white;
 }/*# sourceMappingURL=stylesheet.css.map */

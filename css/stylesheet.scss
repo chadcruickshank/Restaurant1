@@ -239,7 +239,7 @@ nav {
     p {
       line-height: 1;
       word-wrap: break-word;
-      word-break: break-all;
+      // word-break: break-all;
       max-width: 100%;
     }
 
@@ -326,4 +326,8 @@ nav {
 
 .aboutUsText {
   margin: 5vw 10vw;
+  mark {
+    background-color: $dark-orange;
+    color: white;
+  }
 }

@@ -211,7 +211,6 @@ nav {
 .menu-items .menuStyling p {
   line-height: 1;
   word-wrap: break-word;
-  word-break: break-all;
   max-width: 100%;
 }
 .menu-items .menuStyling .foodName {
@@ -263,7 +262,7 @@ nav {
 }
 
 .embeddedMap {
-  margin: 15% 6%;
+  margin: 15% 6% 0 6%;
   border: 4px dashed #000;
 }
 
@@ -273,11 +272,20 @@ nav {
 }
 
 #footer {
+  margin-top: 15%;
   background-color: #000;
   color: #ffffff;
   padding: 20px;
   text-align: center;
   font-size: 0.7rem;
+}
+
+.aboutUsText {
+  margin: 5vw 10vw;
+}
+.aboutUsText mark {
+  background-color: #e95231;
+  color: white;
 }
 
 @media only screen and (min-width: 700px) {

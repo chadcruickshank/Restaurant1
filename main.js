@@ -2,33 +2,33 @@
 
 var appetizer = [
   {
-    name: "Cow Heel Soup ",
+    name: "Guacamole ",
+    price: "30",
+    description: "",
+  },
+  {
+    name: "Shrimp Cocktail",
+    price: "45",
+    description: "",
+  },
+  {
+    name: "Roasted Salsa ",
+    price: "25",
+    description: "",
+  },
+  {
+    name: "Crab Cakes",
     price: "20",
     description: "",
   },
   {
-    name: "Ceasar Salad",
-    price: "15",
+    name: "Honey Mustard Wings ",
+    price: "25",
     description: "",
   },
   {
-    name: "Cow Heel Soup ",
-    price: "20",
-    description: "",
-  },
-  {
-    name: "Ceasar Salad",
-    price: "15",
-    description: "",
-  },
-  {
-    name: "Cow Heel Soup ",
-    price: "20",
-    description: "",
-  },
-  {
-    name: "Ceasar Salad",
-    price: "15",
+    name: "Cream of Mushroom Soup ",
+    price: "40",
     description: "",
   },
 ];
@@ -42,7 +42,7 @@ var mainCourse = [
   {
     name: "Roast Chicken",
     price: "40",
-    description: "",
+    description: "Tender Roast Chicken Served on Rice with Grilled Vegetables",
   },
   {
     name: "Cheeseburger",
